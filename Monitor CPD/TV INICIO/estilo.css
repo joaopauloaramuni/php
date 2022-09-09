@@ -1,0 +1,95 @@
+body
+{
+	background-color:#000;
+	background: -moz-linear-gradient(top, #F0F0F0, #000) repeat-X;
+	height:1200px;
+	width:1900px;
+	overflow:hidden
+}
+.cabecalho
+{
+	width:470px;
+	margin-left:450px;
+	padding:4px;
+}
+.title {
+	font-size: 48px;
+	font-weight: bold;
+	font-family:arial;
+	margin-top:20px;
+	color: #A9A9A9;
+	width:400px;
+	height: 60px;
+	float:right;
+}
+.logo 
+{
+	background-image: url('logo.png');
+	margin-top:20px;
+	width: 47px;
+	height:47px;
+}
+
+.butoeslabs
+{
+	background-color:#1b9a2a;
+	background: -moz-linear-gradient(top, #1b9a2a, #999) repeat-X;
+	width:250px;
+	height:300px;
+	font-size:90px;
+	font-weight:bold;
+	color:#F0F0F0;
+	border: 4px #fff solid;
+	cursor:pointer;
+}
+
+.TA1
+{
+	background-color:transparent;
+	color:#ddd;
+	border-style:none;
+	font-size: 26px;
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+}
+#objeto1area
+{
+	resize:none;
+}
+#objeto2area
+{
+	resize:none;
+}
+#objeto3area
+{
+	resize:none;
+}
+#objeto4area
+{
+	resize:none;
+}
+#objeto5area
+{
+	resize:none;
+}
+#objeto6area
+{
+	resize:none;
+}
+#objeto7area
+{
+	resize:none;
+}
+#objeto8area
+{
+	resize:none;
+}
+#objeto9area
+{
+	resize:none;
+}
+#objeto10area
+{
+	resize:none;
+}

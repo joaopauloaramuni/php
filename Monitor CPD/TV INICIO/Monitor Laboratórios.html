@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Laborat&oacute;rios FUMEC/FACE</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" />		   
+	<script language="javascript" src="efeitos.js"></script>
+</head>
+
+<body onload="iniciar()">
+	<div class="cabecalho">
+		<div class="title">LABORAT&Oacute;RIOS</div>
+		<div class="logo"></div>
+	</div>
+	<table border='0' cellspacing='12'>
+		<tr>
+			<td><input onmouseover="mouse('objeto1', '1')" onmouseout="mouse('objeto1', '2')" class="butoeslabs" id="objeto1" onfocus="changeColor('objeto1')" onDblclick="limpar('objeto1')" type="button" value="I" /></td>
+			<td><input onmouseover="mouse('objeto2', '1')" onmouseout="mouse('objeto2', '2')" class="butoeslabs" id="objeto2" onfocus="changeColor('objeto2')" onDblclick="limpar('objeto2')" type="button" value="II" /></td>
+			<td><input onmouseover="mouse('objeto3', '1')" onmouseout="mouse('objeto3', '2')" class="butoeslabs" id="objeto3" onfocus="changeColor('objeto3')" onDblclick="limpar('objeto3')" type="button" value="III" /></td>
+			<td><input onmouseover="mouse('objeto4', '1')" onmouseout="mouse('objeto4', '2')" class="butoeslabs" id="objeto4" onfocus="changeColor('objeto4')" onDblclick="limpar('objeto4')" type="button" value="IV" /></td>
+			<td><input onmouseover="mouse('objeto5', '1')" onmouseout="mouse('objeto5', '2')" class="butoeslabs" id="objeto5" onfocus="changeColor('objeto5')" onDblclick="limpar('objeto5')" type="button" value="V" /></td>
+		</tr>
+		<tr>
+			<td><input onmouseover="mouse('objeto6', '1')" onmouseout="mouse('objeto6', '2')" class="butoeslabs" id="objeto6" onfocus="changeColor('objeto6')" onDblclick="limpar('objeto6')"  type="button" value="VI" /></td>
+			<td><input onmouseover="mouse('objeto7', '1')" onmouseout="mouse('objeto7', '2')" class="butoeslabs" id="objeto7" onfocus="changeColor('objeto7')" onDblclick="limpar('objeto7')"  type="button" value="VII" /></td>
+			<td><input onmouseover="mouse('objeto8', '1')" onmouseout="mouse('objeto8', '2')" class="butoeslabs" id="objeto8" onfocus="changeColor('objeto8')" onDblclick="limpar('objeto8')"  type="button" value="VIII" /></td>
+			<td><input onmouseover="mouse('objeto9', '1')" onmouseout="mouse('objeto9', '2')" class="butoeslabs" id="objeto9" onfocus="changeColor('objeto9')" onDblclick="limpar('objeto9')"  type="button" value="IX" /></td>
+			<td><input onmouseover="mouse('objeto10', '1')" onmouseout="mouse('objeto10', '2')" class="butoeslabs" id="objeto10" onfocus="changeColor('objeto10')" onDblclick="limpar('objeto10')"  type="button" value="X" /></td>
+		</tr>
+	</table>
+	
+	<textarea id="objeto1area"  onmouseover="mouse('objeto1', '1')"  onmouseout="mouse('objeto1', '2')"  onblur="retiraFoco(this.value, 'objeto1')" onkeyup="verifica(this.value, 'objeto1')" onfocus="preenche(this.value, 'objeto1')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 310px; left:24px;"></textarea>
+	<textarea id="objeto2area"  onmouseover="mouse('objeto2', '1')"  onmouseout="mouse('objeto2', '2')"  onblur="retiraFoco(this.value, 'objeto2')" onkeyup="verifica(this.value, 'objeto2')" onfocus="preenche(this.value, 'objeto2')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 310px; left:288px;"></textarea>
+	<textarea id="objeto3area"  onmouseover="mouse('objeto3', '1')"  onmouseout="mouse('objeto3', '2')"  onblur="retiraFoco(this.value, 'objeto3')" onkeyup="verifica(this.value, 'objeto3')" onfocus="preenche(this.value, 'objeto3')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 310px; left:552px;"></textarea>
+	<textarea id="objeto4area"  onmouseover="mouse('objeto4', '1')"  onmouseout="mouse('objeto4', '2')"  onblur="retiraFoco(this.value, 'objeto4')" onkeyup="verifica(this.value, 'objeto4')" onfocus="preenche(this.value, 'objeto4')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 310px; left:816px;"></textarea>
+	<textarea id="objeto5area"  onmouseover="mouse('objeto5', '1')"  onmouseout="mouse('objeto5', '2')"  onblur="retiraFoco(this.value, 'objeto5')" onkeyup="verifica(this.value, 'objeto5')" onfocus="preenche(this.value, 'objeto5')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 310px; left:1080px;"></textarea>
+	<textarea id="objeto6area"  onmouseover="mouse('objeto6', '1')"  onmouseout="mouse('objeto6', '2')"  onblur="retiraFoco(this.value, 'objeto6')" onkeyup="verifica(this.value, 'objeto6')" onfocus="preenche(this.value, 'objeto6')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 620px; left:24px;"></textarea>
+	<textarea id="objeto7area"  onmouseover="mouse('objeto7', '1')"  onmouseout="mouse('objeto7', '2')"  onblur="retiraFoco(this.value, 'objeto7')" onkeyup="verifica(this.value, 'objeto7')" onfocus="preenche(this.value, 'objeto7')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 620px; left:288px;"></textarea>
+	<textarea id="objeto8area"  onmouseover="mouse('objeto8', '1')"  onmouseout="mouse('objeto8', '2')"  onblur="retiraFoco(this.value, 'objeto8')" onkeyup="verifica(this.value, 'objeto8')" onfocus="preenche(this.value, 'objeto8')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 620px; left:552px;"></textarea>
+	<textarea id="objeto9area"  onmouseover="mouse('objeto9', '1')"  onmouseout="mouse('objeto9', '2')"  onblur="retiraFoco(this.value, 'objeto9')" onkeyup="verifica(this.value, 'objeto9')" onfocus="preenche(this.value, 'objeto9')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 620px; left:816px;"></textarea>
+	<textarea id="objeto10area" onmouseover="mouse('objeto10', '1')" onmouseout="mouse('objeto10', '2')" onblur="retiraFoco(this.value, 'objeto10')" onkeyup="verifica(this.value, 'objeto10')" onfocus="preenche(this.value, 'objeto10')" class="TA1" cols="15" rows="2" size="1" STYLE="position:absolute; top: 620px; left:1080px;"></textarea>
+	
+</body>
+</html>
